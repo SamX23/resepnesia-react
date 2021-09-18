@@ -1,39 +1,27 @@
-const header_grid = {
-  display: "flex",
-  justifyContent: "space-between",
-  margin: "0 2rem",
-};
-
-const nav_left = {};
-const nav_right = {};
-
-const footer_container = {
-  margin: "0 2rem",
-};
-
-const footer_grid = {
-  display: "grid",
-};
+import "./App.css";
 
 function App() {
   return (
     <>
-      <header style={header_grid}>
-        <nav style={nav_left}>
-          <img />
+      <header className="header__grid container">
+        <nav className="header__right flex--center--gap">
+          <h1 className="header__title">
+            <span className="color--primary">Resep</span>
+            <span>nesia</span>
+          </h1>
           <span>Resep</span>
           <span>Daerah</span>
           <span>Blog</span>
           <span>Tentang</span>
         </nav>
-        <nav style={nav_right}>
+        <nav className="header__left flex--center--gap">
           <span>Daftar</span>
           <span>Masuk</span>
-          <i className="icon-search"></i>
-          <i className="icon-bookmark"></i>
+          <ion-icon name="search-outline"></ion-icon>
+          <ion-icon name="bookmark-outline"></ion-icon>
         </nav>
       </header>
-      <main className="main_grid">
+      <main className="main__grid">
         <div>Hero section</div>
         <div>Populer section</div>
         <div>Video highlight section</div>
@@ -44,8 +32,8 @@ function App() {
         <div>Blog section</div>
         <div>Review section</div>
       </main>
-      <footer style={footer_container}>
-        <div style={footer_grid}>
+      <footer className="footer__container">
+        <div className="footer__grid">
           <div>Footer desc</div>
           <div>Footer nav</div>
           <div>Footer logo</div>

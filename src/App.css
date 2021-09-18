@@ -1,0 +1,48 @@
+/* Variables */
+:root {
+  --star: #ffa800;
+  --dark: #454545;
+  --primary: #f05454;
+  --primaryGradient: linear-gradient(76.2deg, #f95e5e 19.72%, #af2e2e 104.5%);
+  --white: #ffffff;
+}
+
+/* Attributes */
+.container {
+  margin: 0 2rem;
+}
+
+.flex--center--gap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.color--primary {
+  color: var(--primary);
+}
+
+/* Class */
+.header__grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.header__right {
+  justify-content: flex-start;
+}
+.header__left {
+  justify-content: flex-end;
+}
+.header__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.footer__container {
+  margin: 0 2rem;
+}
+
+.footer__grid {
+  display: grid;
+}
