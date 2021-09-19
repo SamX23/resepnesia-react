@@ -22,10 +22,18 @@
   color: var(--primary);
 }
 
+.full--height {
+  height: 100vh;
+}
+
 /* Class */
 .header__grid {
   display: grid;
   grid-template-columns: 50% 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 .header__right {
   justify-content: flex-start;
@@ -40,9 +48,15 @@
 }
 
 .footer__container {
-  margin: 0 2rem;
+  background-color: var(--dark);
 }
 
 .footer__grid {
   display: grid;
+  padding-top: 1rem;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 1rem 0;
 }

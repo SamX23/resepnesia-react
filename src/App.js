@@ -22,7 +22,9 @@ function App() {
         </nav>
       </header>
       <main className="main__grid">
-        <div>Hero section</div>
+        <div className="full--height">
+          <div className="container">Hero section</div>
+        </div>
         <div>Populer section</div>
         <div>Video highlight section</div>
         <div>Memasak item section</div>
@@ -33,13 +35,15 @@ function App() {
         <div>Review section</div>
       </main>
       <footer className="footer__container">
-        <div className="footer__grid">
-          <div>Footer desc</div>
-          <div>Footer nav</div>
-          <div>Footer logo</div>
-          <div>Footer utils</div>
+        <div className="container">
+          <div className="footer__grid">
+            <div>Footer desc</div>
+            <div>Footer nav</div>
+            <div>Footer logo</div>
+            <div>Footer utils</div>
+          </div>
+          <div className="footer__copyright">Footer copyright</div>
         </div>
-        <div>Footer copyright</div>
       </footer>
     </>
   );
