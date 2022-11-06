@@ -23,7 +23,28 @@ function App() {
       </header>
       <main className="main__grid">
         <div className="full--height">
-          <div className="container">Hero section</div>
+          <div className="container">
+            <div className="hero__left">
+              <div className="hero__title">
+                <h1>Buat Masakan Nusantara Khas Daerahmu.</h1>
+                <p>Melestarikan masakan tradisional merupakan kewajiban kita</p>
+              </div>
+              <div className="hero__searchBox">
+                <input type="text" placeholder="Cari resep" />
+                <div>
+                  <span>Paling populer: </span>
+                  <span>Rendang</span>
+                  <span>Onde - onde</span>
+                  <span>Bakpia Keju</span>
+                </div>
+              </div>
+            </div>
+            <div className="hero__right">
+              <div className="hero__imageGrid">
+                <img src="#" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
         <div>Populer section</div>
         <div>Video highlight section</div>
