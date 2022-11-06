@@ -5,6 +5,7 @@
   --primary: #f05454;
   --primaryGradient: linear-gradient(76.2deg, #f95e5e 19.72%, #af2e2e 104.5%);
   --white: #ffffff;
+  --navbarHeight: 50px;
 }
 
 /* Attributes */
@@ -34,6 +35,7 @@
   top: 0;
   right: 0;
   left: 0;
+  height: var(--navbarHeight);
 }
 .header__right {
   justify-content: flex-start;
@@ -45,6 +47,10 @@
   margin: 0;
   font-weight: 400;
   font-size: 32px;
+}
+
+.main__grid {
+  margin-top: var(--navbarHeight);
 }
 
 .footer__container {
